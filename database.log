@@ -1,0 +1,1180 @@
+2023-07-06 23:39:44,616:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 92, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-06 23:41:55,009:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 91, in <module>
+    print(populate_table_query2)
+NameError: name 'populate_table_query2' is not defined
+2023-07-06 23:42:54,460:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 92, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-06 23:43:20,609:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 92, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-07 09:09:21,169:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-07 09:23:36,047:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 09:25:43,105:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 09:26:20,638:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-07 09:26:36,266:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-07 09:27:16,373:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 09:48:33,537:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 09:49:35,165:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 09:49:59,943:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 09:50:11,095:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    department_table1 = db.execute_query(conn, populate_table_query1)
+NameError: name 'populate_table_query1' is not defined
+2023-07-07 09:51:02,351:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 10:00:19,987:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 10:43:45,508:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 10:52:29,184:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 10:55:40,326:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 10:57:38,681:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 10:58:42,315:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 11:02:08,654:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'First_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['New_column'] = df1['First_Name'] + df1['Last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'First_Name'
+2023-07-07 11:49:12,807:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'First_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['New_column'] = df1['First_Name'] + df1['Last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'First_Name'
+2023-07-07 12:46:09,529:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'First_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['New_column'] = df1['First_Name'] + df1['Last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'First_Name'
+2023-07-07 12:51:03,788:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'First_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['New_column'] = df1['First_Name'] + df1['Last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'First_Name'
+2023-07-07 12:57:40,214:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 101, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 12:59:24,837:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 101, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 13:01:32,103:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 101, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'])
+KeyError: 'Employee_ID'
+2023-07-07 13:05:06,280:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 100, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 13:06:04,354:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 101, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 13:06:57,605:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 101, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Dept_id=row['Dept_id'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-07 13:07:55,507:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'New_Column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 101, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'],New_Column=row['New_Column'])
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'New_Column'
+2023-07-08 18:47:40,505:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 18:48:06,523:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 18:48:38,794:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 18:53:00,763:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 18:54:48,739:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 19:11:11,455:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 19:12:04,913:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departments.csv)
+NameError: name 'departments' is not defined
+2023-07-08 19:18:46,349:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departmentscsv)
+NameError: name 'departmentscsv' is not defined
+2023-07-08 19:23:46,196:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departmentscsv)
+NameError: name 'departmentscsv' is not defined
+2023-07-08 19:25:50,620:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departmentscsv)
+NameError: name 'departmentscsv' is not defined
+2023-07-08 19:26:11,792:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 17, in <module>
+    data = pd.read_csv(departmentscsv)
+NameError: name 'departmentscsv' is not defined
+2023-07-08 19:30:22,633:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=query3)
+NameError: name 'connection' is not defined
+2023-07-08 19:31:18,002:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 52, in <module>
+    df = df.merge(empList, on="dept_id")
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 9843, in merge
+    return merge(
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\reshape\merge.py", line 148, in merge
+    op = _MergeOperation(
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\reshape\merge.py", line 737, in __init__
+    ) = self._get_merge_keys()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\reshape\merge.py", line 1203, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\generic.py", line 1778, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'dept_id'
+2023-07-08 19:32:51,774:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=query3)
+NameError: name 'connection' is not defined
+2023-07-08 21:12:00,566:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=query3)
+NameError: name 'connection' is not defined
+2023-07-08 21:13:23,403:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-08 21:13:38,443:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-08 21:14:10,051:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-08 21:25:36,868:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 102, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'],New_Column=row['New_Column'])
+KeyError: 'Employee_ID'
+2023-07-08 21:31:41,096:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 102, in <module>
+    populate_table_query1 = populate_table1.format(tableName1=tableName1, Employee_id=row['Employee_ID']+100,First_Name=row['First_Name'],Last_Name=row['Last_Name'],Salary=row['Salary'],Age=row['Age'],Date_Of_Joining=row['Date_Of_Joining'],Emp_Manager_Name=row['Emp_Manager_Name'],Date_Of_Birth=row['Date_Of_Birth'],Dept_id=row['Dept_id'],New_Column=row['New_Column'])
+KeyError: 'Employee_ID'
+2023-07-08 21:32:30,302:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 94, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-08 21:34:13,368:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 94, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-08 21:36:17,434:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 94, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:13:17,341:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:15:24,534:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:16:13,972:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:19:03,566:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:20:41,241:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:22:35,212:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:23:13,491:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 00:32:17,530:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:32:46,307:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 00:33:33,809:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 52, in <module>
+    df = df.merge(empList, on="dept_id")
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 9843, in merge
+    return merge(
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\reshape\merge.py", line 148, in merge
+    op = _MergeOperation(
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\reshape\merge.py", line 737, in __init__
+    ) = self._get_merge_keys()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\reshape\merge.py", line 1203, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\generic.py", line 1778, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'dept_id'
+2023-07-09 00:34:08,401:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 00:35:46,347:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 00:41:40,321:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:43:30,910:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:45:33,479:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:50:19,572:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:58:03,034:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 00:59:16,660:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 15:41:09,632:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 15:45:52,822:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    empList = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 15:49:34,136:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 17:01:51,464:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 17:02:02,463:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 17:17:59,286:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 48, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-09 17:18:09,801:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 53, in <module>
+    status = db.create_database(conn, create_database_query)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\database_class.py", line 28, in create_database
+    cursor = conn.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+2023-07-09 17:19:06,442:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 95, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-09 23:22:52,664:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 94, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 00:02:02,153:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 50, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 00:15:53,676:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 00:19:28,039:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 00:23:44,340:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 00:24:20,841:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 94, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 00:26:42,564:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 00:35:31,732:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 51, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 09:03:06,836:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 51, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 09:10:35,174:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 94, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 09:24:46,662:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['new_Column'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:28:06,783:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['new_Column'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:34:28,565:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['new_Column'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:37:05,116:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['new_Column'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:37:49,594:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 51, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 09:42:18,467:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:44:09,167:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 51, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 09:50:24,504:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 19, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:51:55,560:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 19, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:52:17,922:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 19, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:54:09,391:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:54:42,500:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 20, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:56:34,144:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 26, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 09:58:18,411:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'first_Name'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 26, in <module>
+    df1['full_name'] = df1['first_Name'] + df1['last_Name']
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\String\venv\lib\site-packages\pandas\core\indexes\base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'first_Name'
+2023-07-10 10:12:42,790:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 115, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 10:14:18,683:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 115, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 10:18:25,936:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 115, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 10:18:34,847:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 115, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 10:19:10,710:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 116, in <module>
+    populate_table_query2 = populate_table2.format(tableName2=tableName2, dept_id=row[dept_id], dept_name=row[dept_name])
+NameError: name 'dept_id' is not defined
+2023-07-10 10:21:09,203:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 125, in <module>
+    populate_table_query = populate_table.format(tableName1=tableName1, employee_id=row['employee_id'],first_name=row['first_name'],last_name=row['last_name'],salary=row['salary'],age=row['age'],date_of_joining=row['date_of_joining'],emp_manager_name=row['emp_manager_name'],date_Of_birth=row['date_of_birth'],dept_id=row['dept_id'],full_name=row['full_name'])
+KeyError: 'mmp_manager_name'
+2023-07-10 10:22:34,167:ERROR:Exception occured
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\newhcl_database.py", line 125, in <module>
+    populate_table_query = populate_table.format(tableName1=tableName1, employee_id=row['employee_id'],first_name=row['first_name'],last_name=row['last_name'],salary=row['salary'],age=row['age'],date_of_joining=row['date_of_joining'],emp_manager_name=row['emp_manager_name'],date_Of_birth=row['date_of_birth'],dept_id=row['dept_id'],full_name=row['full_name'])
+KeyError: 'mmp_manager_name'
+2023-07-10 12:34:02,490:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 51, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 13:22:58,945:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 13:23:50,941:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 13:24:00,709:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 14:41:51,576:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 14:50:55,350:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 49, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined
+2023-07-10 15:19:04,706:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\dbqueries.py", line 55, in <module>
+    emps = pd.read_sql_query(con=connection, sql=empSalQuery3)
+NameError: name 'connection' is not defined

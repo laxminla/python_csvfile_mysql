@@ -1,0 +1,385 @@
+2023-06-14 11:39:13,129:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 37, in employee_info
+    emp_names = config["EmployeeData"]["fname"].split(',')
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'fname'
+2023-06-14 11:39:36,046:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 37, in employee_info
+    emp_names = config["EmployeeData"]["fname"].split(',')
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'fname'
+2023-06-14 11:46:13,830:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 44, in employee_info
+    doj_min_year = config["EmployeeData"]["doj_min_year"]  # 1995
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'doj_min_year'
+2023-06-14 11:46:25,108:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 44, in employee_info
+    doj_min_year = config["EmployeeData"]["doj_min_year"]  # 1995
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'doj_min_year'
+2023-06-14 11:47:58,304:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 49, in employee_info
+    dobirth_min_year = config["EmployeeData"]["dobirth_min_year"]  # 1963
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dobirth_min_year'
+2023-06-14 11:52:12,163:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 44, in employee_info
+    doj_min_year = config["EmployeeData"]["doj_min_year"]  # 1995
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'doj_min_year'
+2023-06-14 11:53:13,064:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 44, in employee_info
+    doj_min_year = config["EmployeeData"]["doj_min_year"]  # 1995
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'doj_min_year'
+2023-06-14 12:19:40,480:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 7 positional arguments but 9 were given
+2023-06-14 12:30:11,850:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 7 positional arguments but 9 were given
+2023-06-14 12:32:27,324:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 8 positional arguments but 9 were given
+2023-06-14 12:33:52,631:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 8 positional arguments but 9 were given
+2023-06-14 12:34:31,259:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 8 positional arguments but 9 were given
+2023-06-14 12:34:58,975:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 8 positional arguments but 9 were given
+2023-06-14 12:40:00,662:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 97, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 87, in employee_info
+    e = Employee(empname, emplname, salary, age, doj, mname, i, dob)
+TypeError: Employee.__init__() takes 8 positional arguments but 9 were given
+2023-06-15 09:44:21,695:WARNING:Watch out!
+2023-06-15 17:55:23,417:WARNING:Watch out!
+2023-06-15 17:56:49,146:WARNING:Watch out!
+2023-06-15 17:58:36,427:WARNING:Watch out!
+2023-06-19 10:40:35,059:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 102, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_name])
+IndexError: list index out of range
+2023-06-19 10:40:35,061:WARNING:Watch out!
+2023-06-19 10:42:29,947:WARNING:Watch out!
+2023-06-19 10:43:06,010:WARNING:Watch out!
+2023-06-19 10:43:22,389:WARNING:Watch out!
+2023-06-19 10:43:45,510:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 102, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_name])
+IndexError: list index out of range
+2023-06-19 10:43:45,512:WARNING:Watch out!
+2023-06-19 10:44:35,825:WARNING:Watch out!
+2023-06-20 10:35:35,588:WARNING:Watch out!
+2023-06-20 10:37:38,474:WARNING:Watch out!
+2023-06-20 11:36:06,882:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 102, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_name])
+IndexError: list index out of range
+2023-06-20 11:36:06,883:WARNING:Watch out!
+2023-06-20 11:36:25,783:WARNING:Watch out!
+2023-06-26 10:35:36,673:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 102, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_name])
+IndexError: list index out of range
+2023-06-26 10:35:36,674:WARNING:Watch out!
+2023-06-26 10:35:55,878:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 102, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_name])
+IndexError: list index out of range
+2023-06-26 10:35:55,880:WARNING:Watch out!
+2023-06-26 10:36:23,880:WARNING:Watch out!
+2023-06-26 10:37:36,488:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 102, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_name])
+IndexError: list index out of range
+2023-06-26 10:37:36,490:WARNING:Watch out!
+2023-06-26 10:37:49,199:WARNING:Watch out!
+2023-07-03 11:46:53,953:WARNING:Watch out!
+2023-07-03 11:47:17,153:WARNING:Watch out!
+2023-07-03 11:47:30,338:WARNING:Watch out!
+2023-07-03 11:49:16,425:WARNING:Watch out!
+2023-07-03 11:50:14,212:WARNING:Watch out!
+2023-07-03 11:50:36,115:WARNING:Watch out!
+2023-07-03 11:50:59,469:WARNING:Watch out!
+2023-07-03 11:52:17,081:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 88, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 82, in employee_info
+    print(emp_list[i].first_name, emp_list[i].last_name, emp_list[i].salary, emp_list[i].age, emp_list[i].doj,
+IndexError: list index out of range
+2023-07-03 11:52:17,083:WARNING:Watch out!
+2023-07-03 11:52:37,429:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 88, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 82, in employee_info
+    print(emp_list[i].first_name, emp_list[i].last_name, emp_list[i].salary, emp_list[i].age, emp_list[i].doj,
+IndexError: list index out of range
+2023-07-03 11:52:37,431:WARNING:Watch out!
+2023-07-03 11:53:40,059:WARNING:Watch out!
+2023-07-05 10:47:17,667:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 10:47:17,671:WARNING:Watch out!
+2023-07-05 11:00:28,519:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 11:00:28,523:WARNING:Watch out!
+2023-07-05 11:02:18,044:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 11:02:18,048:WARNING:Watch out!
+2023-07-05 11:04:49,939:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 11:04:49,943:WARNING:Watch out!
+2023-07-05 16:11:33,519:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:11:33,523:WARNING:Watch out!
+2023-07-05 16:12:51,663:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:12:51,665:WARNING:Watch out!
+2023-07-05 16:13:07,512:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:13:07,515:WARNING:Watch out!
+2023-07-05 16:14:08,021:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:14:08,023:WARNING:Watch out!
+2023-07-05 16:14:22,966:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:14:22,969:WARNING:Watch out!
+2023-07-05 16:15:33,089:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:15:33,091:WARNING:Watch out!
+2023-07-05 16:17:50,385:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:17:50,388:WARNING:Watch out!
+2023-07-05 16:20:56,054:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:20:56,057:WARNING:Watch out!
+2023-07-05 16:26:24,929:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 92, in generate_data
+    employee_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 43, in employee_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:26:24,931:WARNING:Watch out!
+2023-07-05 16:42:21,020:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 94, in generate_data
+    department_info()
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 23, in department_info
+    dept_min = config["EmployeeData"]["dept_min"]
+  File "C:\Users\laxmi.sharma\AppData\Local\Programs\Python\Python310\lib\configparser.py", line 1258, in __getitem__
+    raise KeyError(key)
+KeyError: 'dept_min'
+2023-07-05 16:42:21,022:WARNING:Watch out!
+2023-07-05 16:48:31,764:WARNING:Watch out!
+2023-07-05 19:41:13,486:WARNING:Watch out!
+2023-07-05 19:41:37,534:WARNING:Watch out!
+2023-07-06 20:00:14,552:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 109, in generate_data
+    writer.writerow([dept_list[i].Dept_id, dept_list[i].Dept_Name])
+AttributeError: 'Department' object has no attribute 'Dept_id'
+2023-07-06 20:00:14,554:WARNING:Watch out!
+2023-07-06 20:01:32,290:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 109, in generate_data
+    writer.writerow([dept_list[i].Dept_id, dept_list[i].Dept_Name])
+AttributeError: 'Department' object has no attribute 'Dept_Name'
+2023-07-06 20:01:32,291:WARNING:Watch out!
+2023-07-06 20:02:10,772:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 109, in generate_data
+    writer.writerow([dept_list[i].Dept_id, dept_list[i].Dept_Name])
+AttributeError: 'Department' object has no attribute 'Dept_id'
+2023-07-06 20:02:10,773:WARNING:Watch out!
+2023-07-06 20:02:20,741:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 109, in generate_data
+    writer.writerow([dept_list[i].Dept_id, dept_list[i].Dept_Name])
+AttributeError: 'Department' object has no attribute 'Dept_id'
+2023-07-06 20:02:20,743:WARNING:Watch out!
+2023-07-06 20:03:45,630:ERROR:Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\laxmi.sharma\PycharmProjects\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProject\pythonProjec\pythonProject\pythonProject\pythonProject\Project1\employees_info.py", line 109, in generate_data
+    writer.writerow([dept_list[i].dept_id, dept_list[i].dept_Name])
+AttributeError: 'Department' object has no attribute 'dept_Name'
+2023-07-06 20:03:45,633:WARNING:Watch out!
+2023-07-06 20:04:15,159:WARNING:Watch out!
+2023-07-06 20:05:57,058:WARNING:Watch out!
+2023-07-08 15:42:11,823:WARNING:Watch out!
+2023-07-09 17:04:15,958:WARNING:Watch out!
+2023-07-09 17:17:47,542:WARNING:Watch out!
+2023-07-10 00:24:02,305:WARNING:Watch out!
+2023-07-10 09:15:39,949:WARNING:Watch out!
+2023-07-10 10:30:42,657:WARNING:Watch out!
+2023-07-10 10:32:19,535:WARNING:Watch out!
+2023-07-10 11:18:19,548:WARNING:Watch out!
+2023-07-10 11:22:44,933:WARNING:Watch out!
+2023-07-10 11:23:40,869:WARNING:Watch out!
+2023-07-10 11:24:27,531:WARNING:Watch out!
+2023-07-10 11:25:56,552:WARNING:Watch out!
+2023-07-10 11:26:24,246:WARNING:Watch out!
+2023-07-10 11:35:14,671:WARNING:Watch out!
+2023-07-10 11:35:38,554:WARNING:Watch out!
+2023-07-10 11:38:26,085:WARNING:Watch out!
+2023-07-10 11:39:01,752:WARNING:Watch out!
+2023-07-10 11:39:25,044:WARNING:Watch out!
+2023-07-10 11:40:06,673:WARNING:Watch out!
+2023-07-10 11:41:03,306:WARNING:Watch out!
+2023-07-10 11:41:36,116:WARNING:Watch out!
+2023-07-10 11:42:07,464:WARNING:Watch out!
+2023-07-10 11:42:33,954:WARNING:Watch out!
+2023-07-10 11:47:48,587:WARNING:Watch out!
+2023-07-10 12:19:10,413:WARNING:Watch out!
